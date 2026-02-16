@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Accenture | Innovate the Future</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        nav {
+            background: #4B0082;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #FFD700;
+        }
+
+        .hero {
+            background: url('https://images.unsplash.com/photo-1492724441997-5dc865305da7') no-repeat center/cover;
+            color: white;
+            padding: 120px 20px;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 50px;
+        }
+
+        .section {
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .services {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            width: 250px;
+            padding: 20px;
+            margin: 15px;
+            box-shadow: 0 0 10px gray;
+            border-radius: 10px;
+        }
+
+        .card img {
+            width: 100%;
+            height: 150px;
+            border-radius: 10px;
+        }
+
+        form input, form textarea {
+            width: 80%;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        form button {
+            padding: 10px 20px;
+            background: #4B0082;
+            color: white;
+            border: none;
+        }
+
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        footer a {
+            color: #FFD700;
+            margin: 10px;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section class="hero" id="home">
+    <h1>Welcome to Accenture</h1>
+    <p>Leading Digital Transformation & Innovation</p>
+</section>
+
+<section class="section" id="about">
+    <h2>About Accenture</h2>
+    <p>Accenture is a global professional services company providing strategy, consulting, digital, technology and operations services. We help businesses transform and thrive in the digital era.</p>
+</section>
+
+<section class="section" id="services">
+    <h2>Our Services</h2>
+    <div class="services">
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1551434678-e076c223a692">
+            <h3>Consulting</h3>
+            <p>Business and technology consulting solutions.</p>
+            <a href="consulting.html">Read More</a>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1518779578993-ec3579fee39f">
+            <h3>Technology</h3>
+            <p>Cutting-edge IT and cloud solutions.</p>
+            <a href="technology.html">Read More</a>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d">
+            <h3>Operations</h3>
+            <p>Efficient and scalable business operations.</p>
+            <a href="operations.html">Read More</a>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c">
+            <h3>Strategy</h3>
+            <p>Innovative strategies for future growth.</p>
+            <a href="strategy.html">Read More</a>
+        </div>
+    </div>
+</section>
+
+<section class="section" id="contact">
+    <h2>Contact Us</h2>
+    <form>
+        <input type="text" placeholder="Your Name" required><br>
+        <input type="email" placeholder="Your Email" required><br>
+        <textarea rows="5" placeholder="Your Message"></textarea><br>
+        <button type="submit">Send Message</button>
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2026 Accenture</p>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+</footer>
+
+</body>
+</html>
